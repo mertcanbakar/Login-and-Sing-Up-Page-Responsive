@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Sing Up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" onclick="login()" class="toggle-btn">Giriş Yap</button>
+                <button type="button" onclick="singIn()" class="toggle-btn">Kayıt Ol</button>
+            </div>
+            <div class="social-icons">
+                <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_cqgrmigzcH.json"
+                    background="transparent" speed="1" loop autoplay>
+                </lottie-player>
+                <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_2k2SJyoInV.json"
+                    background="transparent" speed="1" loop autoplay>
+                </lottie-player>
+                <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_gJXyCandtc.json"
+                    background="transparent" speed="1" loop autoplay>
+                </lottie-player>
+                <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_6YA7Lgjal1.json"
+                    background="transparent" speed="1" loop autoplay>
+                </lottie-player>
+
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder='Kullanıcı adınızı giriniz...' required>
+                <input type="password" class="input-field" placeholder='Şifrenizi giriniz...' required>
+                <a href="#">Şifreni mi unuttun?</a>
+                <button type="submit" class="submit-btn">Giriş</button>
+
+            </form>
+            <form id="sing-up" class="input-group">
+                <input type="text" class="input-field" placeholder='Kullanıcı adınızı giriniz' required>
+                <input type="email" class="input-field" placeholder='E-mail adresinizii giriniz' required>
+                <input type="password" class="input-field" placeholder='Şifrenizi giriniz' required>
+                <a href="#"> Üye olarak kulanıcı sözleşmesini kabul etmiş olursunuz.</a>
+                <button type="submit" class="submit-btn">Kayıt ol</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="app.js">
+     
+    </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
